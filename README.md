@@ -30,6 +30,7 @@ Did the Ansible GitFork work?
 
 # AnsibleRuntimeVariable
 Did I successfully implement a runtime variable?
+<p> Yes, I successfully implemented several variables from user input.
 
 
 

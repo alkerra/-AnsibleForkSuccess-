@@ -3,6 +3,7 @@ This is a public repository for testing Ansible Playbooks and Git/GitHub command
 
 # AnsibleClone
 Did the Ansible Clone work?
+Yes, the Ansible Clone worked with user input (Machine A).
 
 # AnsibleCommit
 Did the Ansible Commit work?

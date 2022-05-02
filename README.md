@@ -15,6 +15,7 @@ Did the Ansible Pull Request work?
 
 # AnsibleCodeMerge
 Did the Ansible Code Merge work?
+<p> This is merged code from ansible-pull-request-playbook on GitHub.
 
 # AnsibleReleasePoint
 Did the Ansible Release Point work?

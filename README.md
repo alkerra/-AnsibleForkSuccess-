@@ -7,6 +7,7 @@ Yes, the Ansible Clone worked with user input (Machine A).
 
 # AnsibleCommit
 Did the Ansible Commit work?
+<p> This is a test of the gitPullRequest.yml Playbook (Machine A).
 
 # AnsiblePullRequest
 Did the Ansible Pull Request work?

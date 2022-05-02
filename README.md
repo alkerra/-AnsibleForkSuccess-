@@ -7,7 +7,7 @@ Yes, the Ansible Clone worked with user input (Machine A).
 
 # AnsibleCommit
 Did the Ansible Commit work?
-Yes, the Ansible Commit worked, with user input comment (GitHub Repo).
+<p>Yes, the Ansible Commit worked, with user input comment (GitHub Repo).
 
 # AnsiblePullRequest
 Did the Ansible Pull Request work?

@@ -11,6 +11,7 @@ Did the Ansible Commit work?
 
 # AnsiblePullRequest
 Did the Ansible Pull Request work?
+<p> Yes, the Ansible Pull Request worked (GitHub Repository - ansible-pull-request-playbook).
 
 # AnsibleCodeMerge
 Did the Ansible Code Merge work?

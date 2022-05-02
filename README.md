@@ -3,11 +3,12 @@ This is a public repository for testing Ansible Playbooks and Git/GitHub command
 
 # AnsibleClone
 Did the Ansible Clone work?
-Yes, the Ansible Clone worked with user input (Machine A).
+<p>Yes, the Ansible Clone worked with user input (Machine A).
 
 # AnsibleCommit
 Did the Ansible Commit work?
 <p> This is a test of the gitPullRequest.yml Playbook (Machine A).
+<p>Yes, the Ansible Commit worked, with user input comment (GitHub Repo).
 
 # AnsiblePullRequest
 Did the Ansible Pull Request work?
@@ -16,6 +17,7 @@ Did the Ansible Pull Request work?
 # AnsibleCodeMerge
 Did the Ansible Code Merge work?
 <p> This is merged code from ansible-pull-request-playbook on GitHub.
+<p> This is merged code from the main branch.
 
 # AnsibleReleasePoint
 Did the Ansible Release Point work?

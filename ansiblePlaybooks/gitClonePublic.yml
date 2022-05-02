@@ -1,0 +1,16 @@
+---
+  - hosts: all
+    vars_prompt:
+    - name: "repoLocation"
+      prompt: What is the URL for the repository you would like to clone?
+      private: no
+
+    tasks:
+    
+    - name: Clone a github repository
+      git:
+        repo: '{{repoLocation}}'
+        dest: ~/Desktop/CS504-Project-HessnerNicole/Submission1/CS504-IP01-AnsibleTest
+        clone: yes
+        update: yes
+...

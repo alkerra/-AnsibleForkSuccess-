@@ -1,0 +1,53 @@
+---
+- name: Git Add + Git Commit
+  hosts: localhost
+  vars:
+  - destdir: ~/Desktop/CS504-Project-HessnerNicole/Submission1/CS504-IP01-AnsibleTest
+  vars_prompt:
+  - name: "commitMessage"
+    prompt: Please input message to include with commit.
+    private: no
+
+  tasks:
+
+  - name: Git update
+    git:
+      repo: 'https://{{gituser}}:{{gitpass}}@github.com/CityUhessnern/AnsibleCloneTest'
+      dest: "{{destdir}}"
+      update: yes
+      version: master
+    register: git
+    ignore_errors: True
+  - debug:
+      var: git
+
+  - name: Git - Adding
+    shell:
+      "git add --all"
+    args:
+      chdir: "{{destdir}}"
+    register: gitadd
+    when: git.msg is defined
+  - debug:
+      var: gitadd.cmd
+
+  - name: Git - Commiting
+    shell: 
+      git commit -m '{{commitMessage}}'
+    args:
+      chdir: "{{destdir}}"
+    register: gitcommit
+    when: git.msg is defined
+  - debug:
+      var: gitcommit.stdout   
+  
+  - name: Git - Push
+    shell: git push
+    args:
+      chdir: "{{destdir}}"
+    register: gitpush
+    when: git.msg is defined
+  - debug:
+      var: gitpush
+...
+

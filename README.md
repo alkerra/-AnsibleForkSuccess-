@@ -19,9 +19,11 @@ Did the Ansible Code Merge work?
 <p> This is local code (Machine A).
 <p> This is remote code from command-line-pull-test branch.
 <p> This code should from command-line-pull-test should pull to local ansible-merge-test branch.
+<p> Pull was successful!
 
 # AnsibleReleasePoint
 Did the Ansible Release Point work?
+<p> The tag for this test is "rp-test."
 
 # AnsibleSimultaneousEdit
 Did the Ansible Simultaneous Edit work?
@@ -34,7 +36,7 @@ Did the Ansible GitFork work?
 
 # AnsibleRuntimeVariable
 Did I successfully implement a runtime variable?
-<p> Yes, I successfully implemented several variables from user input.
+<p> Yes, I successfully implemented runtime varialbes throughout the tests.
 
 
 

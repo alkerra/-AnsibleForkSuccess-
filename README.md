@@ -18,6 +18,7 @@ Did the Ansible Pull Request work?
 Did the Ansible Code Merge work?
 <p> This is local code (Machine A).
 <p> This is remote code from command-line-pull-test branch.
+<p> This code should from command-line-pull-test should pull to local ansible-merge-test branch.
 
 # AnsibleReleasePoint
 Did the Ansible Release Point work?

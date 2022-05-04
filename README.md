@@ -18,6 +18,7 @@ Did the Ansible Code Merge work?
 
 # AnsibleReleasePoint
 Did the Ansible Release Point work?
+<p> Yes, the Ansible Release Point Worked (GitHub Repo - main).
 
 # AnsibleSimultaneousEdit
 Did the Ansible Simultaneous Edit work?

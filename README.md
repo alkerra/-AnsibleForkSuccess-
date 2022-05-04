@@ -28,6 +28,7 @@ Did the Ansible Code Rollback work?
 
 # AnsibleGitFork
 Did the Ansible GitFork work?
+<p> Yes, the GitFork worked.
 
 # AnsibleRuntimeVariable
 Did I successfully implement a runtime variable?
